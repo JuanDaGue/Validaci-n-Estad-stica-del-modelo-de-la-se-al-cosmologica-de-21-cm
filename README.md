@@ -35,4 +35,6 @@ Realizar un proceso de validación usando el criterio de discrepancia de Gelman-
 ### Resultados
 En los modelos analizados en el proyecto, no se logró validar completamente la absorción del hidrógeno primordial. Aunque hubo modelos estadísticamente sólidos, no se obtuvo un valor físico para la temperatura de primer plano (TF) o para la temperatura debida a la emisión de 21 cm.
 
-```All libraries and datas are in the files```
+```All libraries and datas are in the files
+    For more complex infromation go the next link https://github.com/JuanDaGue/Seminario
+```
