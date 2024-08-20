@@ -1,6 +1,6 @@
-Aquí tienes el contenido en formato Markdown y traducido al español:
 
-```markdown
+
+markdown
 # Validación Estadística del Modelo de la Señal Cosmológica de 21 cm Reportada por el Radiotelescopio EDGES
 **Autor:** Juan David Guerrero Uchima  
 **Coordinador de Tesis:** Germán Chaparro
@@ -18,7 +18,7 @@ El repositorio contiene la validación estadística de la señal cosmológica de
 
 En este repositorio se encuentran las carpetas con los modelos elaborados en Google Colaboratory, los modelos de Pyemcee y Emcee. También hay materiales en formato de PowerPoint para quienes deseen revisar de forma más explicada todos los aspectos del proceso de validación y los resultados obtenidos en el trabajo.
 
-En la carpeta `data` puedes encontrar los datos tomados por el equipo de EDGES de la antena de radio, además de la carpeta `Plots`, donde están guardadas las principales gráficas que se elaboraron en el proyecto.
+En la carpeta data puedes encontrar los datos tomados por el equipo de EDGES de la antena de radio, además de la carpeta Plots, donde están guardadas las principales gráficas que se elaboraron en el proyecto.
 
 Además, hay dos archivos que explican en resumen cada uno de los pasos en la elaboración de este proyecto, además de enlaces a algunas lecturas recomendadas y material bibliográfico.
 ## Resumen
@@ -34,5 +34,5 @@ Realizar un proceso de validación usando el criterio de discrepancia de Gelman-
 
 ### Resultados
 En los modelos analizados en el proyecto, no se logró validar completamente la absorción del hidrógeno primordial. Aunque hubo modelos estadísticamente sólidos, no se obtuvo un valor físico para la temperatura de primer plano (TF) o para la temperatura debida a la emisión de 21 cm.
-```
+
 All libraries and datas are in the models
