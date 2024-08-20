@@ -29,6 +29,23 @@ Validar los modelos físicos elaborados por la colaboración del radiotelescopio
 ### Modelación
 Reproducir la detección reportada de la señal de 21 cm del hidrógeno primordial.
 
+## Modelo
+
+Los datos para nuestro modelo son frecuenciua vs temperatura sky.
+ El modelo consiste en obtener $T_{sky}$ como la suma de $T_F$ (-.--------)y $T_{21}$ (Temperatura relacionada a la trancicion de 21 cm) $T_{sky}=T_F(\nu)+T_{21}(\nu)$
+ 
+$T_F( \nu)$ esta modelada por la siguiente ecuación 
+
+$$T_F(\nu)=a_o\left(\frac{\nu}{\nu_c}\right)^{-2.5}+a_1\left(\frac{\nu}{\nu_c}\right)^{-2.5}\log\left(\frac{\nu}{\nu_c}\right)+a_2\left(\frac{\nu}{\nu_c}\right)^{-2.5}\left[\log\left(\frac{\nu}{\nu_c}\right)\right]^2+a_3\left(\frac{\nu}{\nu_c}\right)^{-4.5}+a_4\left(\frac{\nu}{\nu_c}\right)^{-2.0}+$$
+
+donde $T_F ( ν )$ es la temperatura de brillo de la emisión de primer plano, $ν$ es lafrecuencia, $ν_c$ es la frecuencia central de la banda observada y los coeficientes $a_n$ se ajustan a los datos. La función anterior es una aproximación lineal, centrada en $ν_c$ ,
+$T_{21}$ tiene la siguiente expresón 
+$$T_{21}=-A\left[\frac{1-e^{\tau e^B}}{1-e^{-\tau}}\right]$$
+
+Donde 
+$$B=\frac{4(v-\nu_o)^2}{w^2}\log\left(-{1\over \tau }\log\left({{1+e^{-\tau}}\over 2}\right)\right)$$
+
+
 ### Validación
 Realizar un proceso de validación usando el criterio de discrepancia de Gelman-Rubin.
 
